@@ -1,6 +1,13 @@
 #include<iostream>
 using namespace std;
 
+/*
+    Just remember the natural way of finding the GCD of two numbers and this should be easy.
+    For the LCM part, there is a formula,
+    GCD(a,b) x LCM(a,b) = a x b 
+    => LCM(a,b) = (a x b) / GCD(a,b) 
+*/
+
 int gcd(int a, int b){
     if(b == 0){
         return a;
